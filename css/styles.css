@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+a {
+    color: unset;
+}
+
+body {
+    background: #E3C8FF;
+    font-family: 'montserrat', sans-serif;
+    color: #411595;
+ 
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+ }
+
+main, .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 300px; 
+    margin-bottom: 30px;
+}
+
+.eth {
+    width: 30px;
+    transition: transform 200ms;
+}
+
+.eth:hover {
+    transform: scale(1.2);
+}
+
+.description {
+    display: block;
+}
+
+h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+h2, h3, h4 {
+    font-weight: 400;
+}
+
+.social i {
+    font-size: 20px;
+    margin-right: 5px;
+    transition: transform 200ms;
+}
+
+.social i:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.social {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
