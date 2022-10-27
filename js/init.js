@@ -13,4 +13,13 @@ jQuery(document).ready(function($) {
     })
 
     eth.on("block", setBlockNumber);
+
+    $("#email").on("keyup", () => {
+        console.log("key");
+        if($("#email").val().length == 0) {
+            $("#submit").attr('disabled' , true);
+        } else {
+            $("#submit").attr('disabled' , false);
+        }
+    });
 });
